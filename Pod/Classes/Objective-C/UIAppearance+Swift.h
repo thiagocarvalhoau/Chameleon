@@ -12,6 +12,6 @@
 
 // @param containers An array of Class < UIAppearanceContainer >
 // http://stackoverflow.com/a/28765193
-+ (instancetype)appearanceWhenContainedWithin:(NSArray *)containers;
++ (instancetype)appearanceWhenContainedInInstancesOfClasses:(NSArray *)containers;
 
 @end
